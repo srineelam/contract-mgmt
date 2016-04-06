@@ -1,0 +1,242 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
+a,a:link,a:active,a:visited {
+    color: #990000;
+}
+
+a:hover {
+    color: red;
+}
+
+a.plain,a:link.plain,a:active.plain,a:visited.plain {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+    display: block;
+    border: 1px inset;
+}
+
+form {
+    margin: 0;
+}
+
+select.form,input.form {
+    border: 1px solid #369;
+    width: 150px;
+}
+
+table {
+    padding: 0;
+    margin: 0;
+}
+
+table.list {
+    width   : 100%;
+    border  : none;
+}
+table.list td {
+    padding : 4px;
+    margin  : 0;
+}
+th {
+    border-bottom: 1px solid #CCC;
+}
+
+.grey {
+    background-color: #EEE;
+}
+
+.darkGrey {
+    background-color: #CCC;
+}
+
+td {
+    border-bottom: 1px solid #EEE;
+    vertical-align: top;
+    padding-left: 15px;
+    background-color: #FFF;
+}
+
+
+td.leftColumn {
+    /* white-space: nowrap; */
+    text-align: left;
+}
+
+.leftColumn.wrap {
+    white-space:normal;
+}
+
+td.rightColumn {
+    text-align: right;
+    word-wrap : break-word;
+    word-break:break-all;
+}
+.rightColumn.wrap {
+    word-wrap : break-word;
+    word-break:break-all;
+}
+td.hr {
+    border-bottom: 1px solid #000;
+}
+
+.row {
+    padding: 4px 4px 4px 15px;
+    margin: 0;
+}
+
+.row.selectwidth select{
+	width: 150px;
+}
+
+.heading {
+    background-color: #EEE;
+    display: block;
+    border-bottom : 1px solid #333;
+}
+
+.heading2 {
+    margin: 10px 0;
+    padding: 8px 28px;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    background-color: #fff;
+    display: block;
+}
+
+.info {
+    color: #666;
+}
+
+.shadow {
+    border-bottom: 1px solid #ADADAD;
+}
+
+.row td {
+    background: inherit;
+    border-bottom: none;
+}
+
+#header,.header {
+    height: 67px;
+    background: transparent url('../images/iphone/header_bg.gif') repeat-x
+        scroll center top;
+    position: relative;
+}
+
+.message,.messageok {
+    border-top: 1px solid #ADADAD;
+    border-bottom: 1px solid #666;
+    padding: 9px;
+    margin: 5px 0px;
+}
+
+.message {
+    background-color: #FF9;
+}
+
+.messageok {
+    background-color: #9f9;
+}
+
+#content,.content {
+    background-color: #FFF;
+    padding: 0;
+    margin: 20px 10px 15px;
+}
+
+.content {
+    border-bottom: 1px solid #ADADAD;
+}
+
+.content .row:last-child {
+    border-bottom: 1px solid #666;
+    height: 100px;
+}
+
+.content form {
+    padding-left: 0;
+}
+
+.round {
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #ACACAC;
+    position: relative;
+    width: auto;
+    -webkit-margin-bottom-collapse: separate;
+    -webkit-margin-top-collapse: separate;
+    -moz-border-radius: .6em /*{global-radii-blocks}*/;
+    -webkit-border-radius: .6em /*{global-radii-blocks}*/;
+    border-radius: .6em /*{global-radii-blocks}*/;
+}
+
+.round.horizontalscroll {
+	overflow: auto;
+}
+
+.round .row {
+    padding: 12px;
+    border-bottom: 1px solid #ACACAC;
+    position: relative;
+}
+
+.round .rowplain,
+.round .row:last-child {
+    border-bottom: none;
+}
+
+.round .rowplain {
+    padding : 12px 12px 0 12px;
+        
+}
+
+#error, .error {
+    font-color: red; 
+    font-style: italic;;
+}
+
+
+/** lists **/
+ul {
+    list-style-type : none;
+    margin:0;
+    padding:0;
+}
+
+.bulleted ul {
+    margin-bottom:8px;
+}
+
+.bulleted ul {
+    list-style-type:disc;
+}
+
+.bulleted li{
+    padding-top:5px;
+}
+
+.bulleted ul ul{
+    list-style-type:circle;
+}
+
+.bulleted .extraindent{
+    padding-left:20px;
+}
+ 
+li {
+    margin-left: 20px;
+}
+li.root {
+    margin:0;
+}
+
